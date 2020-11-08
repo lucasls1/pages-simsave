@@ -1,0 +1,80 @@
+.aling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.retangulo{
+    width: 100%;
+    height: 50%;
+    background-color:#1767E5 ;
+}
+.logoLogin{
+    position: absolute;
+    margin-top: 160px;
+    color:#fff ;
+    margin-left: -66px;
+       
+}
+.containerform:last-child{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 398px;
+    height: 306px;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: -21px;
+}
+.titulo{
+    
+   font-family: 'Roboto';
+    text-align: center;
+    font:  24px/29px Roboto;
+    color: #1767E5;
+    opacity: 1;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.info{
+    font-family: Roboto;
+    color: #5D5D5D;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    margin-top: 5px;
+    width: 5.8rem;
+}
+@media screen and (max-width: 414px) {
+    .containerform:last-child{
+        width: 372px;
+   
+    }
+}
+@media screen and (max-width: 375px) {
+    .containerform:last-child{
+        width: 342px;
+   
+    }
+}
+@media screen and (max-width: 360px) {
+    .containerform:last-child{
+        width: 329px;
+   
+    }
+}

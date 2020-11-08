@@ -1,0 +1,83 @@
+.bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.logo{
+    height:30px;
+    
+}
+.logo-secundaria{
+    display: none;
+    width: 41px;
+    height: 41px;
+}
+.btn{
+    display: block;
+    margin-left: -27px;
+
+}
+.btn-login{
+
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    margin-right: 10px;
+    color: #2196F3;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    opacity: 1;
+}
+.btn-create{
+    background: #1767E5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #0000003D;
+    opacity: 1;
+}
+
+
+ @media screen and (max-width: 500px) {
+    .logo{
+        visibility: hidden;
+      }
+      .logo-secundaria{
+        display: block;
+        width: 45px;
+        height: 45px;
+       
+    }
+      }
+@media screen and (max-width: 414px) {
+    .bar{
+        width: 413px;
+    }
+    .logo{
+      visibility: hidden;
+    }
+    .logo-secundaria{
+        display: block;
+        width: 45px;
+        height: 45px;
+    }
+    .btn{
+        margin-right: -10px;
+    }
+    .btn-login{
+
+      width: 69px;
+      height: 33px;
+      font-size: 11px;
+
+    }
+    .btn-create{
+        width: 99px;
+        height: 33px;
+        font-size: 11px;
+
+    }
+
+  }
+  @media screen and (max-width: 375px) {
+    .bar{ 
+    width: 376px;
+  }
+}
